@@ -8,9 +8,9 @@ namespace Application.Services.Concrete
 {
     public class ClinicServices : IClinicServices
     {
-        private readonly IGenericRepository<Clinic> _clinicRepository;
+        private readonly IGenericServices<Clinic> _clinicRepository;
         private readonly IMapper _mapper;
-        public ClinicServices(IGenericRepository<Clinic>clinicRepository,IMapper mapper)
+        public ClinicServices(IGenericServices<Clinic>clinicRepository,IMapper mapper)
         {
             _clinicRepository = clinicRepository;
             _mapper = mapper;

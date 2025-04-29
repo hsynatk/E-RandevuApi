@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Domain;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace Persistence.Context
 {
@@ -12,6 +14,13 @@ namespace Persistence.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            if (!optionsBuilder.IsConfigured)
+            {
+                // fallback için doğrudan bağlantı dizesi
+                optionsBuilder.UseSqlServer("Server=localhost\\MSSQLSERVER02;Database=ERandevuDB;Trusted_Connection=True;Encrypt=False;TrustServerCertificate=True;");
+            }
         }
+
+        public DbSet<Clinic> Clinics { get; set; }
     }
 }
