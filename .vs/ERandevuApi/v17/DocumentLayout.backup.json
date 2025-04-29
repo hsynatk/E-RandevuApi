@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\90544\\Documents\\GitHub\\E-RandevuApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{333E406A-1E80-4116-BB65-3F312C6CF085}|src\\Presentation\\API\\API.csproj|c:\\users\\90544\\documents\\github\\e-randevuapi\\src\\presentation\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{333E406A-1E80-4116-BB65-3F312C6CF085}|src\\Presentation\\API\\API.csproj|solutionrelative:src\\presentation\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{D25B7B50-5E69-41C0-956F-9445F0AF62E7}|src\\Core\\Application\\Application.csproj|c:\\users\\90544\\documents\\github\\e-randevuapi\\src\\core\\application\\services\\concrete\\appointmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D25B7B50-5E69-41C0-956F-9445F0AF62E7}|src\\Core\\Application\\Application.csproj|solutionrelative:src\\core\\application\\services\\concrete\\appointmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\E-RandevuApi\\src\\Presentation\\API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "src\\Presentation\\API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\E-RandevuApi\\src\\Presentation\\API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "src\\Presentation\\API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-29T10:09:49.95Z",
+              "Title": "AppointmentServices.cs",
+              "DocumentMoniker": "C:\\Users\\90544\\Documents\\GitHub\\E-RandevuApi\\src\\Core\\Application\\Services\\Concrete\\AppointmentServices.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Application\\Services\\Concrete\\AppointmentServices.cs",
+              "ToolTip": "C:\\Users\\90544\\Documents\\GitHub\\E-RandevuApi\\src\\Core\\Application\\Services\\Concrete\\AppointmentServices.cs",
+              "RelativeToolTip": "src\\Core\\Application\\Services\\Concrete\\AppointmentServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:37:17.645Z",
               "EditorCaption": ""
             }
           ]

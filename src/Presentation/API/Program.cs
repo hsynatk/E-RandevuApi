@@ -16,6 +16,9 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("ERandevuDB")));
 builder.Services.AddControllers();
 builder.Services.AddScoped(typeof(IGenericServices<>), typeof(GenericRepository<>));
 builder.Services.AddScoped<IClinicServices,ClinicServices>();
+builder.Services.AddScoped<IPatientServices,PatientServices>();
+builder.Services.AddScoped<IDoctorServices, DoctorServices>();
+builder.Services.AddScoped<IAppointmentServices, AppointmentServices>();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 
 builder.Services.AddAutoMapper(typeof(GeneralMapping));
