@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xefqIFqSong=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\90544\\Documents\\GitHub\\E-RandevuApi\\src\\Presentation\\API\\API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\90544\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.4\\microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
+    "C:\\Users\\90544\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
